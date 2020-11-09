@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1604890873923" clover="3.2.0">
-  <project timestamp="1604890873924" name="All files">
-    <metrics statements="145" coveredstatements="107" conditionals="25" coveredconditionals="8" methods="13" coveredmethods="7" elements="183" coveredelements="122" complexity="0" loc="145" ncloc="145" packages="5" files="12" classes="12"/>
+<coverage generated="1604893690071" clover="3.2.0">
+  <project timestamp="1604893690071" name="All files">
+    <metrics statements="146" coveredstatements="108" conditionals="25" coveredconditionals="8" methods="13" coveredmethods="8" elements="184" coveredelements="124" complexity="0" loc="146" ncloc="146" packages="5" files="12" classes="12"/>
     <package name="src">
-      <metrics statements="19" coveredstatements="17" conditionals="5" coveredconditionals="1" methods="3" coveredmethods="1"/>
+      <metrics statements="19" coveredstatements="17" conditionals="5" coveredconditionals="1" methods="3" coveredmethods="2"/>
       <file name="server.js" path="C:\Users\Facu\Desktop\digesto-trabajo\server\src\server.js">
-        <metrics statements="19" coveredstatements="17" conditionals="5" coveredconditionals="1" methods="3" coveredmethods="1"/>
+        <metrics statements="19" coveredstatements="17" conditionals="5" coveredconditionals="1" methods="3" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
         <line num="5" count="1" type="stmt"/>
@@ -49,7 +49,7 @@
       </file>
     </package>
     <package name="src.database">
-      <metrics statements="34" coveredstatements="32" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+      <metrics statements="35" coveredstatements="33" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
       <file name="area.schema.js" path="C:\Users\Facu\Desktop\digesto-trabajo\server\src\database\area.schema.js">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
@@ -65,7 +65,7 @@
         <line num="21" count="1" type="stmt"/>
       </file>
       <file name="index.js" path="C:\Users\Facu\Desktop\digesto-trabajo\server\src\database\index.js">
-        <metrics statements="18" coveredstatements="16" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
+        <metrics statements="19" coveredstatements="17" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
@@ -82,8 +82,9 @@
         <line num="35" count="0" type="stmt"/>
         <line num="38" count="1" type="cond" truecount="1" falsecount="1"/>
         <line num="39" count="1" type="stmt"/>
-        <line num="41" count="0" type="stmt"/>
-        <line num="47" count="1" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
       </file>
       <file name="upload.schema.js" path="C:\Users\Facu\Desktop\digesto-trabajo\server\src\database\upload.schema.js">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>

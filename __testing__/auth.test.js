@@ -1,9 +1,17 @@
 // TODO: add VERIFY Function Test
-
 const request = require('supertest');
 const { app, db } = require('../src/server');
 
 describe('AUTH Module Login', () => {
+  afterEach(async (done) => {
+    done();
+  });
+
+  afterAll(async (done) => {
+    await db.connection.close();
+    done();
+  });
+
   test("Route it's works", async () => {
     const response = await request(app).post('/api/auth');
     expect(response.status).toBe(200);

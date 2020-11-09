@@ -36,6 +36,7 @@ const Database = {
       }
 
       if (_conn) {
+        this.connection = _conn;
         resolve(_conn);
       } else {
         reject('erororcirto');

@@ -21,7 +21,7 @@ app.use(fileUpload());
 app.use(express.static('public'));
 
 app.use(express.json());
-app.use(express.urlencoded());
+// app.use(express.urlencoded());
 
 app.use('/api', router);
 

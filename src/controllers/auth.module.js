@@ -8,8 +8,6 @@ const login = async (req, res) => {
   const name = req.body.username;
   const password = req.body.password;
 
-  // console.log(name, password);
-
   const user = await Database.user.findOne({ name });
 
   if (user === null) {
